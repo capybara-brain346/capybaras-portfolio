@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const SocialLinks: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ const SocialLinks: React.FC = () => {
         <FaInstagram size={24} />
       </a>
       <a href="https://twitter.com/OskarFranttiG" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-        <FaTwitter size={24} />
+        <FaXTwitter size={24} />
       </a>
     </div>
   );
