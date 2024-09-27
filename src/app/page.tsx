@@ -5,6 +5,7 @@ import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import SocialLinks from '../components/SocialLinks';
 import Education from '../components/Education';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -20,13 +21,15 @@ export default function Home() {
       </div>
 
       {/* Right Column (Main Content) */}
-      <div className="2xl:ml-[40%] 2xl:w-3/5 w-full min-h-screen">
-        <main className="p-6 2xl:p-12 2xl:pr-[20%]">
+      <div className="2xl:ml-[40%] 2xl:w-3/5 w-full min-h-screen flex flex-col">
+        <main className="p-6 2xl:p-12 2xl:pr-[20%] flex-grow">
           <About />
           <Experience />
           <Education />
           <Projects />
+          <Footer />
         </main>
+
       </div>
     </div>
   );
