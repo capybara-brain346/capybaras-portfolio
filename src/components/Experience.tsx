@@ -24,18 +24,6 @@ const experiences: Job[] = [
     ],
     logo: "/preezie.png"
   },
-  {
-    title: "IT Administrator",
-    company: "Ealwin Operations",
-    location: "Melbourne, Victoria",
-    period: "October 2020 - October 2021",
-    description: [
-      "Managed IT projects including planning, budgeting, and implementation.",
-      "Installed and troubleshot hardware and software, administered networks, and ensured cybersecurity.",
-      "Worked closely with stakeholders to design and implement solutions across 3 business groups."
-    ],
-    logo: "/ealwin.png" // You may need to add this logo to your public folder
-  }
 ];
 
 const Experience: React.FC = () => {

@@ -1,13 +1,14 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Navigation: React.FC = () => {
   return (
-    <nav>
-      <ul className="space-y-2">
-        <li className="bg-white bg-opacity-10 px-4 py-2 rounded-full">About</li>
-        <li className="text-gray-400 hover:text-white cursor-pointer">Projects</li>
-        <li className="text-gray-400 hover:text-white cursor-pointer">Experience</li>
-      </ul>
+    <nav className="flex space-x-4 items-center">
+      <Link href="#about" className="text-gray-400 hover:text-white">About</Link>
+      <Link href="#skills" className="text-gray-400 hover:text-white">Skills</Link>
+      <Link href="#experience" className="text-gray-400 hover:text-white">Experience</Link>
+      <Link href="#education" className="text-gray-400 hover:text-white">Education</Link>
+      <Link href="#projects" className="text-gray-400 hover:text-white">Projects</Link>
     </nav>
   );
 };
