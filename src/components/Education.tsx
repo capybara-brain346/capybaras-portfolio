@@ -9,20 +9,22 @@ const educationData = [
     period: "July 2022 - Present",
     image: "/deakin-university-logo.png",
     units: [
-      "SIT102 Introduction to Programming",
-      "SIT103 Data and Information Management",
-      "SIT192 Discrete Mathematics",
-      "SIT111 Algorithms and Computing Systems",
       "SIT232 Object-Oriented Development",
+      "SIT292 Linear Algebra for Data Analytics",
+      "SIT223 Proffessional Practice in I.T.",
       "SIT221 Data Structures & Algorithms",
-      "SIT215 Artificial Intelligence and Machine Learning",
+      "SIT215 Computational Intelligence",
+      "SIT202 Computer Networks",
+      "SIT320 Advanced Algorithms",
+      "SIT306 IT Placement",
       "SIT374 Project Design",
-      "SIT331 Software Security",
+      "SIT216 User Centered Design",
+      "SIT305 Mobile Application Development",
+      "SIT331 Full Stack Development: Secure Backend Services",
+      "SIT378 Team Project(B)",
       "SIT315 Concurrent & Distributed Programming",
-      "SIT340 Research and Development in Information Technology",
-      "SIT378 Full Stack Development",
-      "SIT330 Advanced Algorithms",
-      "SIT379 Ethical Hacking"
+      "SIT120 Introduction to Responsive Web Apps",
+      "SIT313 Full Stack Development: Secure Frontend Applications"
     ]
   },
   {

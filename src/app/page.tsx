@@ -9,19 +9,20 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col 2xl:flex-row min-h-screen bg-[#111111] text-white">
+    <div className="flex flex-col 2xl:flex-row min-h-screen bg-[#111111] text-white" >
       {/* Left Column (Header and Social Links) */}
-      <div className="2xl:fixed 2xl:w-2/5 w-full p-6 2xl:p-12 2xl:pl-[20%] flex flex-col justify-between">
+      <div className="2xl:fixed 2xl:w-2/5 w-full p-6 2xl:p-12 2xl:pl-[20%] flex flex-col justify-between mt-8 2xl:mt-16">
         <div>
           <Header />
           <div className="mt-6">
             <SocialLinks />
+
           </div>
         </div>
       </div>
 
       {/* Right Column (Main Content) */}
-      <div className="2xl:ml-[40%] 2xl:w-3/5 w-full min-h-screen flex flex-col">
+      <div className="2xl:ml-[40%] 2xl:w-3/5 w-full min-h-screen flex flex-col mt-8 2xl:mt-16">
         <main className="p-6 2xl:p-12 2xl:pr-[20%] flex-grow">
           <About />
           <Experience />
@@ -29,7 +30,6 @@ export default function Home() {
           <Projects />
           <Footer />
         </main>
-
       </div>
     </div>
   );
