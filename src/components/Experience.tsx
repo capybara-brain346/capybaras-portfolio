@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { ChipList} from './Chips';
 
 interface Job {
   title: string;
@@ -8,9 +9,25 @@ interface Job {
   period: string;
   description: string[];
   logo: string;
+  skills: string[];
 }
 
 const experiences: Job[] = [
+  {
+    title: "CTO & Founder",
+    company: "Shifti",
+    location: "Melbourne, Victoria",
+    period: "April 2023 - Present",
+    description: [
+      "Led the development of an innovative AI-powered shift scheduling platform for the hospitality industry.",
+      "Architected and implemented a scalable microservices-based backend using Node.js and GraphQL.",
+      "Designed and developed a responsive front-end application using React and Next.js.",
+      "Integrated advanced machine learning algorithms for intelligent shift allocation and demand forecasting.",
+      "Managed a team of developers, fostering a culture of innovation and continuous improvement."
+    ],
+    logo: "/shifti.png",
+    skills: ["NextJS", "Supabase", "React Native", "Expo", "Machine Learning", "Tauri"]
+  },
   {
     title: "Software Development Intern",
     company: "Preezie",
@@ -22,7 +39,8 @@ const experiences: Job[] = [
       "Adapted to fast-paced development environments and worked with both legacy and modern technologies.",
       "Collaborated with cross-functional teams, enhancing communication and teamwork skills."
     ],
-    logo: "/preezie.png"
+    logo: "/preezie.png",
+    skills: ["Angular 4", "React", ".NET", "Microservices"]
   },
 ];
 
@@ -49,7 +67,7 @@ const Experience: React.FC = () => {
                 <p className="text-gray-400">{job.period}</p>
               </div>
             </div>
-            <ul className="space-y-2 text-gray-300">
+            <ul className="space-y-2 text-gray-300 mb-4">
               {job.description.map((point, pointIndex) => (
                 <li key={pointIndex} className="flex items-start">
                   <span className="mr-2 mt-1.5 text-gray-500">•</span>
@@ -57,6 +75,7 @@ const Experience: React.FC = () => {
                 </li>
               ))}
             </ul>
+            <ChipList items={job.skills} category="frameworks" />
           </div>
         ))}
       </div>

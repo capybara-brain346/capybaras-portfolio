@@ -1,19 +1,5 @@
 import React from 'react';
 
-const skills = {
-  languages: ['JavaScript', 'TypeScript', 'Python', 'C++', 'C#', 'Rust'],
-  frameworks: ['ReactJS', 'NextJS', 'Tauri', 'React Native', 'ExpressJS', 'Flask', 'Django', 'ASP.Net'],
-  backend: ['Node.js', '.NET', 'REST APIs', 'Microservices'],
-  databases: ['Postgres', 'SQL', 'MongoDB', 'Elasticsearch'],
-  practices: ['Microservices', 'Microfrontend', 'Agile', 'Git']
-};
-
-const Chip: React.FC<{ text: string }> = ({ text }) => (
-  <span className="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-    {text}
-  </span>
-);
-
 const calculateAge = (birthDate: Date): number => {
   const today = new Date();
   let age = today.getFullYear() - birthDate.getFullYear();
@@ -44,52 +30,6 @@ const About: React.FC = () => {
         When I&apos;m not immersed in code, you&apos;ll find me experimenting in the kitchen or bringing ideas to life with my 3D printer. I&apos;m always creating, whether it&apos;s digital products or tangible objects.
       </p>
       
-      <h3 className="text-2xl font-semibold mb-4 text-gray-100">Skills</h3>
-      
-      <div className="mb-4">
-        <h4 className="text-xl font-semibold mb-2 text-gray-200">Languages</h4>
-        <div>
-          {skills.languages.map((lang, index) => (
-            <Chip key={index} text={lang} />
-          ))}
-        </div>
-      </div>
-      
-      <div className="mb-4">
-        <h4 className="text-xl font-semibold mb-2 text-gray-200">Frameworks</h4>
-        <div>
-          {skills.frameworks.map((framework, index) => (
-            <Chip key={index} text={framework} />
-          ))}
-        </div>
-      </div>
-      
-      <div className="mb-4">
-        <h4 className="text-xl font-semibold mb-2 text-gray-200">Backend</h4>
-        <div>
-          {skills.backend.map((tech, index) => (
-            <Chip key={index} text={tech} />
-          ))}
-        </div>
-      </div>
-      
-      <div className="mb-4">
-        <h4 className="text-xl font-semibold mb-2 text-gray-200">Databases</h4>
-        <div>
-          {skills.databases.map((db, index) => (
-            <Chip key={index} text={db} />
-          ))}
-        </div>
-      </div>
-      
-      <div className="mb-4">
-        <h4 className="text-xl font-semibold mb-2 text-gray-200">Development Practices</h4>
-        <div>
-          {skills.practices.map((practice, index) => (
-            <Chip key={index} text={practice} />
-          ))}
-        </div>
-      </div>
     </section>
   );
 };

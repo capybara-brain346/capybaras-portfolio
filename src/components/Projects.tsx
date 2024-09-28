@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { ChipList, SkillCategory } from './Chips';
 
 interface Project {
   name: string;
@@ -12,18 +13,6 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    name: "Shifti: Workforce Management Software",
-    description: [
-      "Architected a comprehensive workforce management solution using NextJS for web and React Native for mobile platforms",
-      "Implemented complex scheduling algorithms and an award interpretation engine for labor regulation compliance",
-      "Developed API integrations with HR and payroll systems, enabling seamless data flow and reducing manual entry"
-    ],
-    technologies: ["NextJS", "Supabase", "React Native", "Expo"],
-    image: "/shifti-project.jpg",
-    githubLink: "https://github.com/yourusername/shifti",
-    liveLink: "https://shifti-demo.com"
-  },
   {
     name: "HomeGame: Home Poker Analytics Manager",
     description: [
@@ -156,14 +145,8 @@ const Projects: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded-full">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex space-x-4">
+                <ChipList items={project.technologies} category="frameworks" />
+                <div className="flex space-x-4 mt-4">
                   {project.githubLink && (
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-300 hover:text-white transition-colors duration-300">
                       <FaGithub className="mr-2" />
