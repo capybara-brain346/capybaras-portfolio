@@ -1,18 +1,13 @@
+// SocialLinks.tsx
 import React from 'react';
-import { FaGithub, FaEnvelope, FaLinkedin, FaFileDownload, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
+import ResumeButton from '../components/ResumeButton';
 
 const SocialLinks: React.FC = () => {
   return (
-    <div className="flex space-x-4 items-center">
-      <a
-        href="/Oskar Frantti Glen Resume.pdf"
-        download
-        className="flex items-center bg-[#111111] hover:bg-white text-white hover:text-[#111111] px-3 py-1 rounded transition duration-300 mr-4 border border-white"
-      >
-        <FaFileDownload size={18} className="mr-2" />
-        Resume
-      </a>
+    <div className="flex space-x-3 items-center">
+      <ResumeButton />
       <a href="https://github.com/OskarFranttiGlen" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
         <FaGithub size={24} />
       </a>

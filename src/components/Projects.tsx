@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { ChipList, SkillCategory } from './Chips';
+import { ChipList } from './Chips';
 
 interface Project {
   name: string;
@@ -26,7 +26,7 @@ const projects: Project[] = [
     liveLink: "https://homegame-app.com"
   },
   {
-    name: "Cafe Loyalty App",
+    name: "BrewPoints: Cafe Loyalty App",
     description: [
       "Developed a full-stack loyalty app solution for independent cafes, featuring React Native mobile apps, Node.js backend with GraphQL API, and MongoDB database",
       "Integrated with various Point of Sale (POS) systems using a flexible adapter pattern",
