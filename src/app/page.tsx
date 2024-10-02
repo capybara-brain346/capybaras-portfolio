@@ -13,14 +13,13 @@ export default function Home() {
     <div className="min-h-screen bg-[#111111] text-white">
       {/* Mobile Layout */}
       <div className="lg:hidden">
-       
-        <main className="p-6">
-        <div className="mb-6">
-          <Header />
-          <div className="mt-6">
-          <SocialLinks/>
+        <main className="p-6 max-w-screen-sm mx-auto">
+          <div className="mb-6">
+            <Header />
+            <div className="mt-6">
+              <SocialLinks/>
+            </div>
           </div>
-        </div>
           <About />
           <Skills />
           <Experience />
@@ -31,9 +30,9 @@ export default function Home() {
       </div>
 
       {/* Desktop Layout */}
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex flex-col xl:flex-row">
         {/* Left Column (Header and Social Links) */}
-        <div className="fixed w-2/5 h-screen p-12 pl-[20%] flex flex-col justify-between">
+        <div className="xl:fixed xl:w-2/5 h-screen p-8 xl:p-12 xl:pl-[10%] flex flex-col justify-between min-w-[300px] max-w-[800px]">
           <div>
             <Header />
             <div className="mt-6">
@@ -42,8 +41,8 @@ export default function Home() {
           </div>
         </div>
         {/* Right Column (Main Content) */}
-        <div className="ml-[40%] w-3/5 min-h-screen">
-          <main className="p-12 pr-[20%]">
+        <div className="xl:ml-[40%] w-full xl:w-3/5 min-h-screen min-w-[500px] max-w-[1200px] mx-auto">
+          <main className="p-8 xl:p-12 xl:pr-[10%]">
             <About />
             <Skills />
             <Experience />
