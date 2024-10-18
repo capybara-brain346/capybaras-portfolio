@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const educationData = [

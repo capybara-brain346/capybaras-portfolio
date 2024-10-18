@@ -1,6 +1,6 @@
 // SocialLinks.tsx
 import React from "react";
-import { FaGithub, FaEnvelope, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import ResumeButton from "../components/ResumeButton";
 

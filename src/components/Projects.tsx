@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { ChipList } from "./Chips";
 
