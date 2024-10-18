@@ -45,7 +45,7 @@ export default function Home() {
           <main className="p-8 xl:p-12 xl:pr-[10%]">
             <About />
             <Skills />
-            <Experience />
+            {/* <Experience /> */}
             <Education />
             <Projects />
           </main>

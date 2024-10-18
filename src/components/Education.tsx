@@ -1,48 +1,15 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import React from "react";
+import Image from "next/image";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const educationData = [
   {
-    degree: "Bachelor of Computer Science",
-    university: "Deakin University, Burwood, Victoria",
-    period: "July 2022 - Present",
-    image: "/deakin-university-logo.png",
-    units: [
-      "SIT232 Object-Oriented Development",
-      "SIT292 Linear Algebra for Data Analytics",
-      "SIT223 Proffessional Practice in I.T.",
-      "SIT221 Data Structures & Algorithms",
-      "SIT215 Computational Intelligence",
-      "SIT202 Computer Networks",
-      "SIT320 Advanced Algorithms",
-      "SIT306 IT Placement",
-      "SIT374 Project Design",
-      "SIT216 User Centered Design",
-      "SIT305 Mobile Application Development",
-      "SIT331 Full Stack Development: Secure Backend Services",
-      "SIT378 Team Project(B)",
-      "SIT315 Concurrent & Distributed Programming",
-      "SIT120 Introduction to Responsive Web Apps",
-      "SIT313 Full Stack Development: Secure Frontend Applications"
-    ]
+    degree: "Bachelor of Artificial Intelligence & Data Science",
+    university: "D.Y.Patil College Of Engineering, Akurdi",
+    period: "Nov 2022 - Present",
+    image: "/dypcoe-image.jpg",
+    units: [""],
   },
-  {
-    degree: "Diploma of Information Technology",
-    university: "Deakin College, Burwood, Victoria",
-    period: "March 2021 - March 2022",
-    image: "/deakin-college-logo.png",
-    units: [
-      "SIT102 Introduction to Programming",
-      "SIT103 Data and Information Management",
-      "SIT111 Computer Systems",
-      "SIT112 Data Science Concepts",
-      "SIT113 Cloud Computing",
-      "SIT123 Data Capture Technologies",
-      "SIT124 Exploring I.T.",
-      "SIT192 Discrete Mathematics"
-    ]
-  }
 ];
 
 const Education: React.FC = () => {
@@ -51,21 +18,30 @@ const Education: React.FC = () => {
       <h2 className="text-3xl font-bold mb-6 text-gray-100">Education</h2>
       <ul className="space-y-6">
         {educationData.map((edu, index) => (
-          <li key={index} className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
+          <li
+            key={index}
+            className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600"
+          >
             <div className="flex items-start mb-2">
               <div className="bg-white rounded-full p-2 mr-4 w-16 h-16 sm:w-24 sm:h-24 flex-shrink-0 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src={edu.image} 
-                  alt={`${edu.university} logo`} 
-                  width={80} 
-                  height={80} 
+                <Image
+                  src={edu.image}
+                  alt={`${edu.university} logo`}
+                  width={80}
+                  height={80}
                   className="object-contain w-12 h-12 sm:w-20 sm:h-20"
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl sm:text-2xl font-semibold text-gray-100">{edu.degree}</h3>
-                <p className="text-base sm:text-lg text-gray-300">{edu.university}</p>
-                <p className="text-sm sm:text-base text-gray-400">{edu.period}</p>
+                <h3 className="text-xl sm:text-2xl font-semibold text-gray-100">
+                  {edu.degree}
+                </h3>
+                <p className="text-base sm:text-lg text-gray-300">
+                  {edu.university}
+                </p>
+                <p className="text-sm sm:text-base text-gray-400">
+                  {edu.period}
+                </p>
                 <details className="mt-2">
                   <summary className="cursor-pointer text-gray-300 hover:text-white transition-colors duration-300 flex items-center">
                     <FaChevronDown className="mr-2 inline-block details-open:hidden" />
