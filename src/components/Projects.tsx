@@ -86,17 +86,6 @@ const Projects: React.FC = () => {
                       <span>View Code</span>
                     </a>
                   )}
-                  {project.liveLink && (
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-gray-300 hover:text-white transition-colors duration-300"
-                    >
-                      <FaExternalLinkAlt className="mr-2" />
-                      <span>Live Demo</span>
-                    </a>
-                  )}
                 </div>
               </div>
             </div>
