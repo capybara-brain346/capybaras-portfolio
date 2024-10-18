@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { ChipList } from "./Chips";
 
 interface Project {
