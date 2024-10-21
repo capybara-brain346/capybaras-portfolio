@@ -1,3 +1,3 @@
 # Piyush's Portfolio
 
-Forked from https://github.com/capybara-brain346/next-portfolio.git
+Forked from [https://github.com/OskarFranttiGlen/next-portfolio.git](https://github.com/OskarFranttiGlen/next-portfolio.git)
