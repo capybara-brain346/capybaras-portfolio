@@ -13,6 +13,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "SAP Stocks",
+    description: [
+      "This application provides real-time insights into stock performance, company news, and market trends through an intuitive interface and AI-powered chatbot. ⚙️",
+    ],
+    technologies: ["Python", "React", "Flask", "Langchain", "Ollama"],
+    image: "/sap_stocks.png",
+    githubLink: "https://github.com/capybara-brain346/SAP-Stocks",
+  },
+  {
     name: "AI Based Resume Screener",
     description: [
       "An AI-powered resume screener built using Python, React, Flask, Langchain, ChromaDB, and the Gemini API. 🤖 ",
