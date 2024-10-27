@@ -58,14 +58,6 @@ const SocialLinks: React.FC = () => {
       >
         <FaHackerrank size={24} />
       </a>
-      <a
-        href="https://www.geeksforgeeks.org/user/choudharuspi/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-gray-400 hover:text-white"
-      >
-        <SiGeeksforgeeks size={24} />
-      </a>
     </div>
   );
 };
