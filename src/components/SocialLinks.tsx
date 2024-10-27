@@ -4,7 +4,6 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { FaHackerrank } from "react-icons/fa";
-import { SiGeeksforgeeks } from "react-icons/si";
 import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
