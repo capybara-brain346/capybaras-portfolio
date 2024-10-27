@@ -2,6 +2,9 @@
 import React from "react";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
+import { FaHackerrank } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
@@ -38,6 +41,30 @@ const SocialLinks: React.FC = () => {
         className="text-gray-400 hover:text-white"
       >
         <FaXTwitter size={24} />
+      </a>
+      <a
+        href="https://leetcode.com/u/crinklybrain2003/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-white"
+      >
+        <SiLeetcode size={24} />
+      </a>
+      <a
+        href="https://www.hackerrank.com/profile/choudhari_piyush"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-white"
+      >
+        <FaHackerrank size={24} />
+      </a>
+      <a
+        href="https://www.geeksforgeeks.org/user/choudharuspi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-white"
+      >
+        <SiGeeksforgeeks size={24} />
       </a>
     </div>
   );
