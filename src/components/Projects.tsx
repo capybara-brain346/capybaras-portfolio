@@ -13,6 +13,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "Mars Weather Data ETL Pipeline",
+    description: [
+      "The Mars Weather Data Project is a Java application that retrieves and stores weather data from NASA's InSight Mars weather API into a MongoDB database.☄️",
+    ],
+    technologies: ["Java", "MongoDB", "MySQL", "JDBC"],
+    image: "/MarsETL.png",
+    githubLink: "https://github.com/capybara-brain346/Mars-Data-ETL-Pipeline",
+  },
+  {
     name: "SAP Stocks",
     description: [
       "This application provides real-time insights into stock performance, company news, and market trends through an intuitive interface and AI-powered chatbot. ⚙️",
