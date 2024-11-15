@@ -17,7 +17,14 @@ const projects: Project[] = [
     description: [
       "The Mars Weather Data Project is a Java application that retrieves and stores weather data from NASA's InSight Mars weather API into a MongoDB database.☄️",
     ],
-    technologies: ["Java", "MongoDB", "MySQL", "JDBC"],
+    technologies: [
+      "Java",
+      "MongoDB",
+      "MySQL",
+      "JDBC",
+      "Apache Airflow",
+      "Dockers",
+    ],
     image: "/MarsETL.png",
     githubLink: "https://github.com/capybara-brain346/Mars-Data-ETL-Pipeline",
   },
