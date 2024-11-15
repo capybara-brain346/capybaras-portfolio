@@ -5,16 +5,16 @@ import Image from "next/legacy/image";
 
 const GlowingProfile = () => {
   return (
-    <div className="relative w-[150px] h-[150px] mb-6">
+    <div className="relative w-[112px] h-[120px] mb-6">
       {/* Loading animation ring */}
       <div className="absolute -inset-2">
         {/* Rotating gap ring */}
         <div
           className="absolute inset-0 rounded-full 
           before:content-[''] before:absolute before:w-full before:h-full 
-          before:rounded-full before:animate-[spin_3s_linear_infinite] 
+          before:rounded-full before:animate-[spin_5s_linear_infinite] 
           before:border-4 before:border-transparent 
-          before:border-t-green-400 before:border-l-green-400
+          before:border-t-blue-400 before:border-l-blue-400
           before:shadow-[0_0_15px_rgba(74,222,128,0.5)]"
         />
 
@@ -22,9 +22,9 @@ const GlowingProfile = () => {
         <div
           className="absolute inset-0 rounded-full 
           after:content-[''] after:absolute after:w-[calc(100%-8px)] after:h-[calc(100%-8px)]
-          after:top-1 after:left-1 after:rounded-full after:animate-[reverse-spin_2s_linear_infinite]
+          after:top-1 after:left-1 after:rounded-full after:animate-[reverse-spin_3s_linear_infinite]
           after:border-4 after:border-transparent
-          after:border-b-emerald-400 after:border-r-emerald-400
+          after:border-b-blue-400 after:border-r-blue-400
           after:shadow-[0_0_15px_rgba(74,222,128,0.5)]"
         />
       </div>
