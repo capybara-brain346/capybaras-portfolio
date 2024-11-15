@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +13,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 .glow {
@@ -21,7 +21,8 @@ body {
 }
 
 /* Ensure the page takes up at least the full viewport height */
-html, body {
+html,
+body {
   height: 100%;
   overflow: hidden;
 }
@@ -57,6 +58,24 @@ main::-webkit-scrollbar-thumb:hover {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
