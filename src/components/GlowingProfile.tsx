@@ -5,7 +5,7 @@ import Image from "next/legacy/image";
 
 const GlowingProfile = () => {
   return (
-    <div className="relative w-[112px] h-[120px] mb-6">
+    <div className="relative w-[120px] h-[120px] mb-6">
       {/* Loading animation ring */}
       <div className="absolute -inset-2">
         {/* Rotating gap ring */}
