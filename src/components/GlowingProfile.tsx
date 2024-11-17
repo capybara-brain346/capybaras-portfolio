@@ -14,7 +14,7 @@ const GlowingProfile = () => {
           before:content-[''] before:absolute before:w-full before:h-full 
           before:rounded-full before:animate-[spin_5s_linear_infinite] 
           before:border-4 before:border-transparent 
-          before:border-t-blue-400 before:border-l-blue-400
+          before:border-t-white-400 before:border-l-white-400
           before:shadow-[0_0_15px_rgba(74,222,128,0.5)]"
         />
 
@@ -24,7 +24,7 @@ const GlowingProfile = () => {
           after:content-[''] after:absolute after:w-[calc(100%-8px)] after:h-[calc(100%-8px)]
           after:top-1 after:left-1 after:rounded-full after:animate-[reverse-spin_3s_linear_infinite]
           after:border-4 after:border-transparent
-          after:border-b-blue-400 after:border-r-blue-400
+          after:border-b-white-400 after:border-r-white-400
           after:shadow-[0_0_15px_rgba(74,222,128,0.5)]"
         />
       </div>
