@@ -29,24 +29,6 @@ const projects: Project[] = [
     githubLink: "https://github.com/capybara-brain346/Mars-Data-ETL-Pipeline",
   },
   {
-    name: "SAP Stocks",
-    description: [
-      "This application provides real-time insights into stock performance, company news, and market trends through an intuitive interface and AI-powered chatbot. ⚙️",
-    ],
-    technologies: ["Python", "React", "Flask", "Langchain", "Ollama"],
-    image: "/sap_stocks.png",
-    githubLink: "https://github.com/capybara-brain346/SAP-Stocks",
-  },
-  {
-    name: "AI Based Resume Screener",
-    description: [
-      "An AI-powered resume screener built using Python, React, Flask, Langchain, ChromaDB, and the Gemini API. 🤖 ",
-    ],
-    technologies: ["Python", "React", "Flask", "Langchain"],
-    image: "/resume-screener.jpg",
-    githubLink: "https://github.com/capybara-brain346/resume-screener-ai",
-  },
-  {
     name: "RecycleNet18",
     description: [
       "RecycleNet is a deep learning-based project designed to classify images of recyclable items into 30 distinct categories. 📦",
@@ -63,6 +45,24 @@ const projects: Project[] = [
     technologies: ["Python", "FastAPI", "Sqlite3", "Pytest"],
     image: "/pokemon.jpg",
     githubLink: "https://github.com/capybara-brain346/pokedex-api",
+  },
+  {
+    name: "SAP Stocks",
+    description: [
+      "This application provides real-time insights into stock performance, company news, and market trends through an intuitive interface and AI-powered chatbot. ⚙️",
+    ],
+    technologies: ["Python", "React", "Flask", "Langchain", "Ollama"],
+    image: "/sap_stocks.png",
+    githubLink: "https://github.com/capybara-brain346/SAP-Stocks",
+  },
+  {
+    name: "AI Based Resume Screener",
+    description: [
+      "An AI-powered resume screener built using Python, React, Flask, Langchain, ChromaDB, and the Gemini API. 🤖 ",
+    ],
+    technologies: ["Python", "React", "Flask", "Langchain"],
+    image: "/resume-screener.jpg",
+    githubLink: "https://github.com/capybara-brain346/resume-screener-ai",
   },
 ];
 
