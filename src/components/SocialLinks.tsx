@@ -31,23 +31,22 @@ const SocialLinks: React.FC = () => {
 
       <div className="group relative">
         <a
+          href="https://x.com/piyush_yip"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
+        >
+          <FaXTwitter size={24} />
+        </a>
+      </div>
+      <div className="group relative">
+        <a
           href="https://www.linkedin.com/in/piyush-choudhari/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
           <FaLinkedin size={24} />
-        </a>
-      </div>
-
-      <div className="group relative">
-        <a
-          href="https://x.com/PiyushChou56092"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
-        >
-          <FaXTwitter size={24} />
         </a>
       </div>
 
