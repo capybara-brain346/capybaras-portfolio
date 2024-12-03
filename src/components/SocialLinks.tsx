@@ -18,13 +18,6 @@ const SocialLinks: React.FC = () => {
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
           <FaGithub size={20} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            GitHub
-          </span>
         </a>
       </div>
 
@@ -34,13 +27,6 @@ const SocialLinks: React.FC = () => {
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
           <FaEnvelope size={20} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            Email
-          </span>
         </a>
       </div>
 
@@ -52,13 +38,6 @@ const SocialLinks: React.FC = () => {
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
           <FaLinkedin size={20} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            LinkedIn
-          </span>
         </a>
       </div>
 
@@ -70,13 +49,6 @@ const SocialLinks: React.FC = () => {
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
           <FaXTwitter size={20} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            X (Twitter)
-          </span>
         </a>
       </div>
 
@@ -88,13 +60,6 @@ const SocialLinks: React.FC = () => {
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
           <SiLeetcode size={20} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            LeetCode
-          </span>
         </a>
       </div>
     </div>
