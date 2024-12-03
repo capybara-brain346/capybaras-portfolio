@@ -8,7 +8,7 @@ import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
   return (
-    <div className="flex space-x-9 items-center">
+    <div className="flex flex-row justify-center items-center space-x-4 sm:space-x-4 border-2 bg-gray-100 bg-opacity-10 p-2 sm:p-4 rounded-xl overflow-x-auto">
       <ResumeButton />
       <div className="group relative">
         <a
@@ -17,7 +17,7 @@ const SocialLinks: React.FC = () => {
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
-          <FaGithub size={24} />
+          <FaGithub size={20} />
           <span
             className="absolute -top-10 left-1/2 -translate-x-1/2 
             hidden group-hover:block bg-gray-800 text-white text-sm 
@@ -33,7 +33,7 @@ const SocialLinks: React.FC = () => {
           href="mailto:choudhari.piyush@gmail.com"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
-          <FaEnvelope size={24} />
+          <FaEnvelope size={20} />
           <span
             className="absolute -top-10 left-1/2 -translate-x-1/2 
             hidden group-hover:block bg-gray-800 text-white text-sm 
@@ -51,7 +51,7 @@ const SocialLinks: React.FC = () => {
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
-          <FaLinkedin size={24} />
+          <FaLinkedin size={20} />
           <span
             className="absolute -top-10 left-1/2 -translate-x-1/2 
             hidden group-hover:block bg-gray-800 text-white text-sm 
@@ -69,7 +69,7 @@ const SocialLinks: React.FC = () => {
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
-          <FaXTwitter size={24} />
+          <FaXTwitter size={20} />
           <span
             className="absolute -top-10 left-1/2 -translate-x-1/2 
             hidden group-hover:block bg-gray-800 text-white text-sm 
@@ -87,31 +87,13 @@ const SocialLinks: React.FC = () => {
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
         >
-          <SiLeetcode size={24} />
+          <SiLeetcode size={20} />
           <span
             className="absolute -top-10 left-1/2 -translate-x-1/2 
             hidden group-hover:block bg-gray-800 text-white text-sm 
             rounded-md px-2 py-1 whitespace-nowrap"
           >
             LeetCode
-          </span>
-        </a>
-      </div>
-
-      <div className="group relative">
-        <a
-          href="https://www.hackerrank.com/profile/choudhari_piyush"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
-        >
-          <FaHackerrank size={24} />
-          <span
-            className="absolute -top-10 left-1/2 -translate-x-1/2 
-            hidden group-hover:block bg-gray-800 text-white text-sm 
-            rounded-md px-2 py-1 whitespace-nowrap"
-          >
-            HackerRank
           </span>
         </a>
       </div>
