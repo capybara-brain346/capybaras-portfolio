@@ -8,25 +8,25 @@ import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
   return (
-    <div className="flex flex-row justify-center items-center space-x-4 sm:space-x-4 border-2 bg-gray-100 bg-opacity-10 p-2 sm:p-4 rounded-xl overflow-x-auto">
+    <div className="flex flex-row justify-center items-center space-x-4 sm:space-x-4 border-2 bg-gray-100 bg-opacity-10 p-2 sm:p-4 rounded-xl overflow-x-auto shadow-lg transition-shadow hover:shadow-2xl">
       <ResumeButton />
       <div className="group relative">
         <a
           href="https://github.com/capybara-brain346"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
-          <FaGithub size={20} />
+          <FaGithub size={24} />
         </a>
       </div>
 
       <div className="group relative">
         <a
           href="mailto:choudhari.piyush@gmail.com"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
-          <FaEnvelope size={20} />
+          <FaEnvelope size={24} />
         </a>
       </div>
 
@@ -35,9 +35,9 @@ const SocialLinks: React.FC = () => {
           href="https://www.linkedin.com/in/piyush-choudhari/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
-          <FaLinkedin size={20} />
+          <FaLinkedin size={24} />
         </a>
       </div>
 
@@ -46,9 +46,9 @@ const SocialLinks: React.FC = () => {
           href="https://x.com/PiyushChou56092"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
-          <FaXTwitter size={20} />
+          <FaXTwitter size={24} />
         </a>
       </div>
 
@@ -57,9 +57,9 @@ const SocialLinks: React.FC = () => {
           href="https://leetcode.com/u/crinklybrain2003/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white transition-transform transform hover:scale-110"
+          className="text-gray-400 hover:text-white transition-transform transform hover:scale-125 hover:rotate-12"
         >
-          <SiLeetcode size={20} />
+          <SiLeetcode size={24} />
         </a>
       </div>
     </div>
