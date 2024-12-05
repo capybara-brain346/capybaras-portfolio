@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: "Piyush Choudhari",
   description: "Full Stack Developer",
   icons: {
-    icon: "/public/favicon-32x32.png",
-    shortcut: "/public/favicon.ico",
+    icon: "favicon-32x32.png",
+    shortcut: "favicon.ico",
   },
 };
 
