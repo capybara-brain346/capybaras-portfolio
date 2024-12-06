@@ -12,7 +12,7 @@ const skills: { [key in SkillCategory]: string[] } = {
 const Skills: React.FC = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-6 text-gray-100">Skills</h2>
+      <h2 className="text-3xl font-bold mb-6 text-white">Skills</h2>
 
       {(Object.entries(skills) as [SkillCategory, string[]][]).map(
         ([category, items]) => (
