@@ -7,7 +7,7 @@ import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
   return (
-    <div className="flex flex-row justify-center items-center space-x-4 sm:space-x-4 border-2 bg-gray-500 bg-opacity-10 p-2 sm:p-4 rounded-xl overflow-x-auto shadow-lg transition-shadow hover:shadow-2xl">
+    <div className="flex flex-row justify-center items-center space-x-4 sm:space-x-4 border-2 bg-black bg-opacity-10 p-2 sm:p-4 rounded-xl overflow-x-auto shadow-lg transition-shadow hover:shadow-2xl">
       <ResumeButton />
       <div className="group relative">
         <a

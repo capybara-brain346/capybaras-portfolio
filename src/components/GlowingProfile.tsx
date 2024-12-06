@@ -35,7 +35,7 @@ const GlowingProfile = () => {
       {/* Profile picture container */}
       <div className="relative w-full h-full overflow-hidden rounded-full ring-1 ring-green-400/30">
         <Image
-          src="/linkedIn_profile_pic (2).png"
+          src="/profile_pic.png"
           alt="Piyush Choudhari"
           layout="fill"
           objectFit="cover"
