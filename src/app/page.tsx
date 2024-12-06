@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#000000] text-white">
+    <div className="min-h-screen bg-[#0e0e0e] text-white">
       {/* Mobile Layout */}
       <div className="lg:hidden flex flex-col min-h-screen">
         <main className="p-6 max-w-screen-sm mx-auto flex-grow">
